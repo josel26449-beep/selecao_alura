@@ -140,6 +140,21 @@ body {
     text-decoration: underline;
 }
 
+/* Logo dentro do H1 */
+.logo-h1 {
+    height: 1.2em;          /* mesma altura da fonte do h1 */
+    vertical-align: middle; /* alinha ao centro do texto */
+    margin-right: 0.4em;    /* espaço entre logo e texto */
+}
+
+/* Logo dentro do li */
+.logo-li {
+    height: 1.2em;          /* mesma altura da fonte do h1 */
+    vertical-align: middle; /* alinha ao centro do texto */
+    margin-right: 0.4em;    /* espaço entre logo e texto */
+}
+
+
 /* ====== ESTILO DOS CARDS ====== */
 .card-container {
     display: grid;
@@ -237,3 +252,4 @@ body {
     font-weight: 600;
     white-space: nowrap;
 }}
+
